@@ -30,7 +30,7 @@ header h1 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3fr 1fr;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   border-radius: 0.5rem;
   max-width: 361px;
 }
@@ -41,6 +41,7 @@ header h1 {
   color: white;
   padding: 1rem;
   transition: all linear 0.1s;
+  background-image: url(../images/fondo.png);
 }
 
 #reloj-container #horas {
